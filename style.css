@@ -11,14 +11,8 @@ body{
     max-width: 200%;
     height: 200px;
 }
-h4{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-content{ 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;  
-    color:black;
-    text-align: justify;
-    z-index: 1;
-   }
+.h4{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
 .navigation {
     display: flex;
     color:black ;
@@ -32,4 +26,17 @@ list-style-type: none;
     display: inline;
     margin-right: 16px;
 }
+
+.content{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;  
+    color:white;
+    text-align: justify;
+    z-index: 1;
+   }
+.Product{
+    text-align: left;
+    
+}
+
 
