@@ -1,17 +1,17 @@
 body{ 
     border: 20px;
-    background-color: darkgrey;
     padding: 100px;
-    height: 85vh;
-    background-image: url("assets/download\ \(1\).jpeg");
+    height: 100vh;
+    background-image: url("assets/grosir.jpeg");
     background-repeat: no-repeat;
-    background-size: 1280px 480px;
+    background-size:700pc;
+    background-position: center top;
 }
 .body img{
     max-width: 200%;
     height: 200px;
 }
-.h4{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.penawaran{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 .navigation {
     display: flex;
@@ -20,7 +20,7 @@ body{
     align-items: center;
 }
 .Search-engine{
-list-style-type: none;
+    list-style-type: none;
 }
 .Search-engine li{
     display: inline;
@@ -30,13 +30,44 @@ list-style-type: none;
 .content{ 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;  
-    color:white;
+    color:black;
     text-align: justify;
     z-index: 1;
    }
+   
 .Product{
+    color: black;
     text-align: left;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
+.Descriptionone p{
+    text-align: justify;
+}
+.Productone img{
+    width: 300px;
+    height: 150px;
+    float: right;
+    margin-right: auto;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.Producttwo img{
+    width: 300px;
+    height: 150px;
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.Descriptiontwo p{
+    text-align :justify;
+}
+.Productthree img{
+    width: 300px;
+    height: 150px;
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+    }
+.Contact{
+    font-family:'Times New Roman', Times, serif;
+}
