@@ -11,6 +11,9 @@ body{
     max-width: 200%;
     height: 200px;
 }
+header{
+    text-align: center;
+}
 .penawaran{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 .navigation {
