@@ -4,7 +4,7 @@ body{
     height: 100vh;
     background-image: url("assets/grosir.jpeg");
     background-repeat: no-repeat;
-    background-size:700pc;
+    background-size:750pc;
     background-position: center top;
 }
 .body img{
@@ -12,6 +12,9 @@ body{
     height: 200px;
 }
 header{
+    text-align: justify;
+}
+section{
     text-align: center;
 }
 .penawaran{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
@@ -71,6 +74,7 @@ header{
     border: 3px solid;
     border-radius: 10px;
     }
+    
 .Contact{
     font-family:'Times New Roman', Times, serif;
 }
