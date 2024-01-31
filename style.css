@@ -7,9 +7,11 @@ body{
     background-size:750pc;
     background-position: center top;
 }
-.body img{
-    max-width: 200%;
-    height: 200px;
+.Slideshow {
+    width: 600px;
+    height: 300px;
+    float: center;
+    margin: 0 auto;
 }
 header{
     text-align: justify;
@@ -21,9 +23,10 @@ section{
 
 .navigation {
     display: flex;
+    flex-direction: row;
     color:black ;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
 }
 .Search-engine{
     list-style-type: none;
