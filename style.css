@@ -5,8 +5,14 @@ body{
     height: 100vh;
     background-image: url("assets/grosir.jpeg");
     background-repeat: no-repeat;
-    background-size:750pc;
+    background-size:800pc;
     background-position: center top;
+}
+.Slideshow {
+    width: 600px;
+    height: 300px;
+    float: center;
+    margin: 0 auto;
 }
 header{
     text-align: justify;
