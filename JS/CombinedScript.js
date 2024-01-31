@@ -31,4 +31,4 @@ function showDivs(n) {
 }
 setInterval(function () {
     plusDivs(1);
-}, 1000);
+}, 2000);
