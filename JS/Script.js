@@ -1,6 +1,6 @@
 function replacename() {
-    let name = prompt("Hello, What's your name?");
-    document.getElementById("name").innerHTML = name;
+    let nama = prompt("Hello, What's your name?");
+    document.getElementById("nama").innerHTML = nama;
 }
 
 replacename();
@@ -38,7 +38,7 @@ setInterval(function () {
 const inputName = document.getElementById("name-input");
 const inputEmail = document.getElementById("email-input");
 
-const button = document.getElementById ("tombol kirim");
+const button = document.getElementById ("tombol-kirim");
 
 button.addEventListener ("click", function (){
     let nama = inputName.value;

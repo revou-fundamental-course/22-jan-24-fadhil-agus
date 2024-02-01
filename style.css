@@ -1,10 +1,8 @@
 body{ 
-    border: 20px;
-    padding: 100px;
-    height: 100vh;
+    padding: 0;
     background-image: url("assets/grosir.jpeg");
     background-repeat: no-repeat;
-    background-size:75pc;
+    background-size: 2560pc;
     background-position: center top;
 }
 .Slideshow {
@@ -15,11 +13,9 @@ body{
 }
 header{
     text-align: justify;
-    color: black;
 }
 section{
     text-align: center;
-    color: black;
 }
 .navigation {
     display: flex;
@@ -39,13 +35,13 @@ section{
 .content{ 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;  
-    color:black;
+    color:white;
     text-align: justify;
     z-index: 1;
    }
    
 .Product{
-    color: black;
+    color: white;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -79,7 +75,7 @@ section{
     }
 
     .error-message{
-        color: red;
+        color: black;
         font-size: small;
     }
     .responsive {
@@ -90,50 +86,11 @@ section{
 .Contact{
     font-family:'Times New Roman', Times, serif;
 }
-@media only screen and (max-width : 920x){
-    .responsive{
-        display: flex;
-        flex-direction: column;
+
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+    body {
+        padding: 0;
     }
-    body{ 
-        border: 20px;
-        padding: 100px;
-        height: 100vh;
-        background-image: url("assets/grosir.jpeg");
-        background-repeat: no-repeat;
-        background-size:800pc;
-        background-position: center top;
-    }
-    .Slideshow {
-        width: 600px;
-        height: 300px;
-        float: center;
-        margin: 0 auto;
-    }
-    header{
-        text-align: justify;
-        color: aliceblue;
-    }
-    section{
-        text-align: center;
-        color: wheat;
-    }
-    
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        color:black ;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-    .Search-engine{
-        list-style-type: none;
-    }
-    .Search-engine li{
-        display: inline;
-        margin-right: 16px;
-    }
-    
     .content{ 
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: medium;  
@@ -150,34 +107,11 @@ section{
     .Descriptionone p{
         text-align: justify;
     }
-    .Productone img{
-        width: 100%;
-        max-width: 300px;
-        float: right;
-        margin-right: auto;
-        border: 3px solid;
-        border-radius: 10px;
-    }
-    .Producttwo img{
-        width: 100%;
-        max-width: 300px;
-        float: right;
-        border: 3px solid;
-        border-radius: 10px;
-    }
     .Descriptiontwo p{
         text-align :justify;
     }
-    .Productthree img{
-        width: 100%;
-        height: 300px;
-        float: right;
-        border: 3px solid;
-        border-radius: 10px;
-        }
-    
         .error-message{
-            color: red;
+            color:black;
             font-size: small;
         }
         .responsive {
@@ -187,5 +121,56 @@ section{
         
     .Contact{
         font-family:'Times New Roman', Times, serif;
+    }    
+
+    .Slideshow {
+        width: 80%;
+        height: auto;
     }
     }
+
+/* untuk layar 600px atau kurang (Mobile) */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+        background-image: url("assets/grosir.jpeg");
+        background-size: 2560pc;
+        background-position: center top;
+
+    }
+
+    .content{ 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;  
+        color:black;
+        text-align: justify;
+        z-index: 1;
+       }
+       
+    .Product{
+        color: black;
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .Descriptionone p{
+        text-align: justify;
+    }
+    .Descriptiontwo p{
+        text-align :justify;
+    }
+        .error-message{
+            color:black;
+            font-size: small;
+        }
+        .responsive {
+            width: 100%;
+            display: flex;
+        }
+        
+    .Contact{
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+    
+}
+
